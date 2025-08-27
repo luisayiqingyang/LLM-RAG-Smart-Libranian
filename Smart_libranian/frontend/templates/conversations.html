@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background-color: #ffffff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ccc;
+            vertical-align: top;
+            text-align: left;
+        }
+        th {
+            background-color: #f9f9f9;
+        }
+        td pre {
+            margin: 0;
+            white-space: pre-wrap;
+            font-family: inherit;
+        }
+        a.back {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+        a.back:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conversations</h1>
+    <form method="get" style="margin-bottom: 20px;">
+        Sort by:
+        <select name="sort_by">
+            <option value="timestamp" {% if sort_by == "timestamp" %}selected{% endif %}>Timestamp</option>
+            <option value="user_id" {% if sort_by == "user_id" %}selected{% endif %}>User ID</option>
+        </select>
+        Order:
+        <select name="order">
+            <option value="desc" {% if order == "desc" %}selected{% endif %}>Descending</option>
+            <option value="asc" {% if order == "asc" %}selected{% endif %}>Ascending</option>
+        </select>
+        Filter by User ID:
+        <input type="text" name="user_id" value="{{ user_filter }}">
+        <button type="submit">Apply</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>user_id</th>
+                <th>session_id</th>
+                <th>question</th>
+                <th>answer</th>
+                <th>timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for conv in conversations %}
+            <tr>
+                <td>{{ conv[0] }}</td>
+                <td>{{ conv[1] }}</td>
+                <td>{{ conv[2] or '-' }}</td>
+                <td>{{ conv[3] }}</td>
+                <td><pre>{{ conv[4] }}</pre></td>
+                <td>{{ conv[5] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a class="back" href="{{ url_for('chat_view') }}">← Back to Chat</a>
+</body>
+</html>

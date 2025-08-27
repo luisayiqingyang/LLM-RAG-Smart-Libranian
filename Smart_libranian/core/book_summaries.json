@@ -1,0 +1,122 @@
+[
+  {
+    "title": "1984",
+    "themes": [
+      "distopie",
+      "supraveghere",
+      "totalitarism",
+      "controlul informației"
+    ],
+    "summary": "Un stat totalitar supraveghează fiecare gest al cetățenilor. Winston, funcționar la Ministerul Adevărului, începe să pună la îndoială realitatea oficială și plătește prețul pentru rebeliunea sa interioară."
+  },
+  {
+    "title": "Minunata lume nouă",
+    "themes": [
+      "distopie",
+      "inginerie socială",
+      "tehnologie",
+      "conformism"
+    ],
+    "summary": "O societate aparent fericită este construită pe condiționare genetică, droguri și distracții perpetue. Individualitatea devine un defect într-un sistem care prioritizează stabilitatea."
+  },
+  {
+    "title": "Fahrenheit 451",
+    "themes": [
+      "cenzură",
+      "anti-intelectualism",
+      "media",
+      "libertatea gândirii"
+    ],
+    "summary": "Cărțile sunt arse, iar pompierul Montag își reconsideră rolul într-o lume care a renunțat la reflecție. Întâlnirea cu o tânără nonconformistă îi aprinde dorința de cunoaștere."
+  },
+  {
+    "title": "Dune",
+    "themes": [
+      "ecologie",
+      "politică",
+      "misticism",
+      "putere"
+    ],
+    "summary": "Pe planeta deșertică Arrakis, familii nobiliare se luptă pentru controlul „mirodeniei”. Paul Atreides descoperă o soartă mesianică, îmbinând profeția cu strategia."
+  },
+  {
+    "title": "Neuromancer",
+    "themes": [
+      "cyberpunk",
+      "inteligență artificială",
+      "rețele",
+      "corporatism"
+    ],
+    "summary": "Un hacker decăzut e recrutat pentru o misiune imposibilă care implică IA-uri misterioase și megacorporații, într-un viitor în care spațiul virtual devine teren de luptă."
+  },
+  {
+    "title": "Fundația",
+    "themes": [
+      "psihologie a maselor",
+      "imperiu",
+      "strategie",
+      "știință"
+    ],
+    "summary": "Hari Seldon prezice, prin psihohistorie, căderea Imperiului Galactic și pune bazele unui plan pe secole pentru a scurta haosul inevitabil."
+  },
+  {
+    "title": "Omul din castelul înalt",
+    "themes": [
+      "istorie alternativă",
+      "propagandă",
+      "identitate",
+      "putere"
+    ],
+    "summary": "Într-o lume în care Aliații au pierdut războiul, Statele Unite sunt împărțite între puteri totalitare. Un roman interzis sugerează o altă realitate, destabilizând ordinea."
+  },
+  {
+    "title": "Mâna stângă a întunericului",
+    "themes": [
+      "gen",
+      "alteritate",
+      "diplomație",
+      "cultură"
+    ],
+    "summary": "Un emisar uman negociază aderarea unei planete la o alianță interstelară, învățând despre o specie a cărei identitate de gen este fluidă."
+  },
+  {
+    "title": "Snow Crash",
+    "themes": [
+      "metavers",
+      "limbaj",
+      "antropologie",
+      "corporatism"
+    ],
+    "summary": "Un curier/hacker și o tânără skater investighează un virus care afectează atât creierele oamenilor, cât și lumea virtuală."
+  },
+  {
+    "title": "Drumul",
+    "themes": [
+      "postapocaliptic",
+      "familie",
+      "supraviețuire",
+      "moralitate"
+    ],
+    "summary": "Un tată și fiul său traversează o lume arsă, încercând să păstreze o fărâmă de bunătate într-un peisaj lipsit de speranță."
+  },
+  {
+    "title": "Mașinile ca mine",
+    "themes": [
+      "etică",
+      "IA",
+      "relații",
+      "responsabilitate"
+    ],
+    "summary": "Un cuplu achiziționează un android sofisticat; relațiile dintre ei scot la iveală întrebări despre conștiință, adevăr și vinovăție."
+  },
+  {
+    "title": "Cercul",
+    "themes": [
+      "privacy",
+      "rețele sociale",
+      "transparență",
+      "puterea platformelor"
+    ],
+    "summary": "O companie tehnologică promovează transparența totală. O angajată ajunge să confunde binele comun cu supravegherea constantă."
+  }
+]
